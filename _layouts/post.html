@@ -35,6 +35,9 @@ layout: default
         {{ content }}
 
         <hr>
+        {%- if site.disqus.shortname -%}
+          {%- include disqus_comments.html -%}
+        {%- endif -%}
 
         <div class="clearfix">
 
