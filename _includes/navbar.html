@@ -20,13 +20,39 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
         </li>
-        <li class="nav-item">
-          <div id="search-container" class="nav-item">
-          <input type="text" id="search-input" class="search" placeholder="search...">
-          <ul id="results-container"></ul>
+        <li class="nav-item position-relative">
+          <div class="main-search form-group mb-0 border-bottom">
+            <div class="input-group"> <input class="form-control border-0" id="search" name="main_input" placeholder="press / to search" type="text" />
+              <!-- <div class="input-group-append"> <span class="input-group-text border-0"> <i aria-hidden="true" class="fa fa-search"></i> </span></div> -->
+            </div>
+          </div>
+          <div class="search-results position-absolute">
+            <ul class="search-results-ul card shadow border border-top-0" id="results"></ul>
           </div>
         </li>
+        <li class="nav-item heart-container">
+        </li>
+        <!-- <li class="nav-item">
+          <div id="search-container" class="nav-item">
+            <input type="text" id="search-input" class="search" placeholder="search...">
+            <ul id="results-container"></ul>
+          </div>
+        </li> -->
       </ul>
+      <!-- <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+        <li class="nav-item position-relative">
+          <div class="main-search form-group mb-0 border-bottom">
+            <div class="input-group"> <input class="form-control border-0" id="search" name="main_input" placeholder="press / to search" type="text" />
+              <div class="input-group-append"> <span class="input-group-text border-0"> <i aria-hidden="true" class="fa fa-search"></i> </span></div>
+            </div>
+          </div>
+          <div class="search-results position-absolute">
+            <ul class="search-results-ul card shadow border border-top-0" id="results"></ul>
+          </div>
+        </li>
+        <li class="nav-item heart-container">
+        </li>
+      </ul> -->
     </div>
   </div>
 </nav>
