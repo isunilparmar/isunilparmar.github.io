@@ -1,0 +1,26 @@
+// Styling for the footer
+footer {
+  padding: 50px 0 65px;
+  .list-inline {
+    margin: 0;
+    padding: 0;
+  }
+  .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+.profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 90%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.authorprofile{
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
