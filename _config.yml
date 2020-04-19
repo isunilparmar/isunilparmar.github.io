@@ -32,6 +32,24 @@ github_username:  isunilparmar
 linkedin_username:  isunilparmar
 stackoverflow_username: 9220476
 
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble: 
+  email: parmarsunil175@gmail.com
+  facebook:
+  flickr:
+  github: isunilparmar
+  instagram:
+  linkedin:
+  pinterest:
+  rss: isunilparmar # just type anything here for a working RSS icon
+  twitter: isunilparmar
+  stackoverflow: users/9220476/sunil-parmar # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+
+
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-159297940-2 # out your google-analytics code
 
